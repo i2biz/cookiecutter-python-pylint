@@ -44,13 +44,13 @@ def read_dir(package: str, directory: str):
 if __name__ == "__main__":
 
   setup(
-    name='i2biz_misc_modules',
-    version='0.6.2',
+    name='{{cookiecutter.project_slug}}',
+    version='{{cookiecutter.version}}',
     packages=packages,
     license='All Rights reserved',
-    author='Jacek Bzdak',
-    author_email='jacek@askesis.pl',
-    description='Misc modules for i2biz deployments',
+    author='{{ cookiecutter.full_name }}',
+    author_email='{{ cookiecutter.email }}',
+    description='{{cookiecutter.project_short_description}}',
     install_requires=[str(req.req) for req in get_requirements()],
     package_data={
       package: [] +
