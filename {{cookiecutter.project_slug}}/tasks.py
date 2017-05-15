@@ -15,7 +15,7 @@ def lint(ctx):
 
 @task
 def test(ctx):
-  ctx.run("py.test --cov {{cookiecutter.project_slug}}")
+  ctx.run("py.test --cov--cov-report=html --cov-report=term-missing {{cookiecutter.project_slug}}")
 
 
 @task(pre=[test, pep8, lint])
