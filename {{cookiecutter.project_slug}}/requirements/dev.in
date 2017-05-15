@@ -4,4 +4,9 @@ pytest-cov
 
 pylint
 pylint-common
-enchant
+pyenchant
+
+pip-tools
+invoke
+
+pep8
