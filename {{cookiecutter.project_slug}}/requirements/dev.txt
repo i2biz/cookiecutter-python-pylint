@@ -8,18 +8,19 @@ astroid==1.5.2 \
     --hash=sha256:271f1c9ad6519a5dde2a7f0c9b62c2923b55e16569bdd888f9f9055cc5be37ed \
     --hash=sha256:9c19f72d865a539e91115cdb6a293b5c2fecb5f611fad38b21a961a925c2e3f1 \
     # via pylint, pylint-plugin-utils
+bumpversion==0.5.3 \
+    --hash=sha256:6744c873dd7aafc24453d8b6a1a0d6d109faf63cd0cd19cb78fd46e74932c77e \
+    --hash=sha256:6753d9ff3552013e2130f7bc03c1007e24473b4835952679653fb132367bdd57
 click==6.7 \
     --hash=sha256:29f99fc6125fbc931b758dc053b3114e55c77a6e4c6c3a2674a2dc986016381d \
-    --hash=sha256:f15516df478d5a56180fbf80e68f206010e6d160fc39fa508b65e035fd75130b \
-    # via pip-tools
+    --hash=sha256:f15516df478d5a56180fbf80e68f206010e6d160fc39fa508b65e035fd75130b
 coverage==4.4.1 \
     --hash=sha256:7a9c44400ee0f3b4546066e0710e1250fd75831adc02ab99dda176ad8726f424 \
     --hash=sha256:a5ed27ad3e8420b2d6b625dcbd3e59488c14ccc06030167bcf14ffb0f4189b77 \
     # via pytest-cov
 first==2.0.1 \
     --hash=sha256:3bb3de3582cb27071cfb514f00ed784dc444b7f96dc21e140de65fe00585c95e \
-    --hash=sha256:41d5b64e70507d0c3ca742d68010a76060eea8a3d863e9b5130ab11a4a91aa0e \
-    # via pip-tools
+    --hash=sha256:41d5b64e70507d0c3ca742d68010a76060eea8a3d863e9b5130ab11a4a91aa0e
 invoke==0.17.0 \
     --hash=sha256:0ce43ce89585a0fc4346c98a9f5e8f0d051b048943108f274982e1486e969905 \
     --hash=sha256:981103f08e2aa7ada37a415da09be76ec4023a9dceb0475d51a00ad10ff8ea51
@@ -63,8 +64,7 @@ pytest==3.0.7 \
     --hash=sha256:b70696ebd1a5e6b627e7e3ac1365a4bc60aaf3495e843c1e70448966c5224cab
 six==1.10.0 \
     --hash=sha256:0ff78c403d9bccf5a425a6d31a12aa6b47f1c21ca4dc2573a7e2f32a97335eb1 \
-    --hash=sha256:105f8d68616f8248e24bf0e9372ef04d3cc10104f1980f54d57b2ce73a5ad56a \
-    # via astroid, pip-tools, pylint
+    --hash=sha256:105f8d68616f8248e24bf0e9372ef04d3cc10104f1980f54d57b2ce73a5ad56a
 wrapt==1.10.10 \
     --hash=sha256:42160c91b77f1bc64a955890038e02f2f72986c01d462d53cb6cb039b995cdd9 \
     # via astroid

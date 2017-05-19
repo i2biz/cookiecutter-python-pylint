@@ -10,3 +10,5 @@ pip-tools
 invoke
 
 pep8
+
+bumpversion
