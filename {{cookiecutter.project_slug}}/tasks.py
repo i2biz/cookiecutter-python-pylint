@@ -10,7 +10,7 @@ def pep8(ctx):
 
 @task
 def lint(ctx):
-  ctx.run("pylint {{cookiecutter.project_slug}} {{cookiecutter.project_slug}}_test")
+  ctx.run("pylint {{cookiecutter.project_slug}} {{cookiecutter.project_slug}}_test -r n")
 
 
 @task
