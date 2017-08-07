@@ -9,7 +9,7 @@ Install `cookiecutter` command line: `pip install cookiecutter`
 
 Usage
 -----
-Generate a new Cookiecutter template layout: `cookiecutter gh:jbzdak/cookiecutter-python-pylint`    
+Generate a new Cookiecutter template layout: `cookiecutter gh:i2biz/cookiecutter-python-pylint`    
 
 License
 -------
