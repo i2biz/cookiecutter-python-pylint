@@ -5,7 +5,7 @@ from invoke import task
 
 @task
 def pep8(ctx):
-  ctx.run("pep8 {{cookiecutter.project_slug}} {{cookiecutter.project_slug}}_test")
+  ctx.run("pycodestyle {{cookiecutter.project_slug}} {{cookiecutter.project_slug}}_test")
 
 
 @task
