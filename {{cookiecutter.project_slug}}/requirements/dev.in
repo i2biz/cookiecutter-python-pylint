@@ -9,6 +9,6 @@ pyenchant
 pip-tools
 invoke
 
-pep8
+pycodestyle
 
 bumpversion
