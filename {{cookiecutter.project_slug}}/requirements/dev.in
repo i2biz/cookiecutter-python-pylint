@@ -2,13 +2,9 @@
 pytest
 pytest-cov
 
-pylint
-pylint-common
-pyenchant
+black
 
 pip-tools
 invoke
-
-pycodestyle
 
 bumpversion
