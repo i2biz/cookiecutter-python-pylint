@@ -4,22 +4,47 @@
 #
 #    pip-compile dev.in
 #
-appdirs==1.4.3            # via black
-atomicwrites==1.2.1       # via pytest
-attrs==18.2.0             # via black, pytest
+appdirs==1.4.3
+    # via black
+atomicwrites==1.2.1
+    # via pytest
+attrs==18.2.0
+    # via
+    #   black
+    #   pytest
 black==19.3b0
+    # via -r dev.in
 bumpversion==0.5.3
-click==7.0                # via black, pip-tools
-coverage==4.5.2           # via pytest-cov
+    # via -r dev.in
+click==7.0
+    # via
+    #   black
+    #   pip-tools
+coverage==4.5.2
+    # via pytest-cov
 invoke==1.2.0
-more-itertools==4.3.0     # via pytest
+    # via -r dev.in
+more-itertools==4.3.0
+    # via pytest
 pip-tools==3.1.0
-pluggy==0.8.0             # via pytest
-py==1.7.0                 # via pytest
+    # via -r dev.in
+pluggy==0.8.0
+    # via pytest
+py==1.10.0
+    # via pytest
 pytest-cov==2.6.0
+    # via -r dev.in
 pytest==4.0.1
-six==1.11.0               # via more-itertools, pip-tools, pytest
-toml==0.10.0              # via black
+    # via
+    #   -r dev.in
+    #   pytest-cov
+six==1.11.0
+    # via
+    #   more-itertools
+    #   pip-tools
+    #   pytest
+toml==0.10.0
+    # via black
 
 # The following packages are considered to be unsafe in a requirements file:
-# setuptools==41.0.1        # via pytest
+# setuptools
